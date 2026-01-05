@@ -1,0 +1,46 @@
+# Haskell
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+dist/
+dist-newstyle/
+
+# Executables
+Main
+*/Main
+*.exe
+
+# nand2tetris specific
+*.hack
+*.bin
+*.out
+*.asm
+*.vm
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
